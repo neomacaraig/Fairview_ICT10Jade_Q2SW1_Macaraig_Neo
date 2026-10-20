@@ -16,7 +16,7 @@ def checkMember(e):
     member = full_name in club_members
     
     messages = {
-        True: f"Congratulations {full_name}! You are now part of the ICT club.",
+        True: f"Congratulations {full_name}! You are now part of the Math Club.",
         False: f"Sorry {full_name}, your name is not on the list."
     }
     
